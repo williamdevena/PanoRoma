@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.showinfo.long_info_aranci">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:paddingTop="5dp"
+                    android:text="Il giardino degli Aranci è il nome con cui si indica parco Savello, un parco di Roma di circa 7.800 m², posto sul colle Aventino, nel rione Ripa. Il giardino, il cui nome deriva dalla presenza caratteristica di numerose piante di aranci amari, si estende nell'area dell'antico fortilizio eretto dalla famiglia dei Savelli (da cui il nome parco Savello) tra il 1285 e il 1287 nei pressi della basilica di Santa Sabina sull'Aventino, su un preesistente castello fatto costruire dai Crescenzi nel X secolo. Il giardino, come si presenta attualmente, fu realizzato nel 1932 dall'architetto Raffaele De Vico, dopo che, con la nuova definizione urbanistica dell'Aventino, nell'area che i padri domenicani della vicina chiesa tenevano ad orto, era stato previsto di destinare a parco pubblico, in modo da offrire libero accesso alla vista da quel versante del colle, creando un nuovo belvedere romano, da aggiungere a quelli già esistenti del Pincio e del Gianicolo. Il giardino ha un'impostazione estremamente simmetrica, con un viale mediano in asse con il belvedere, che è stato intitolato a Nino Manfredi dopo la morte dell'attore, castrese di origine ma romano di adozione. Tale viale si apre in due slarghi: in quello di destra era in origine collocata, dagli anni Trenta del Novecento, la fontana realizzata da Giacomo della Porta per la oggi scomparsa piazza Montanara, e, dal 1973, trasferita infine a piazza San Simeone ai Coronari, all'ingresso del parco stesso, addossata ad una nicchia del muro di cinta. La piazza centrale prende il nome da un altro attore simbolo della romanità, Fiorenzo Fiorentini, che per molti anni condusse nel parco una sua stagione teatrale estiva.">
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

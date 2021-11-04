@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.showinfo.long_info_zodiaco">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:paddingTop="5dp"
+                    android:text="Monte Mario è propriamente l'altura che sorge nell'area nord-ovest di Roma, sulla riva destra del Tevere, attraversata dalla via Trionfale, occupando parte di Balduina, del territorio del Municipio I (Roma Centro) e del Municipio XIV (Roma Monte Mario) e una piccola porzione del Municipio XV (Cassia/Flaminia) di Roma, comprendendo quindi parte dei quartieri Trionfale, Della Vittoria e Primavalle. Con lo stesso toponimo si identifica anche l'area urbana sita su questo colle, a ridosso della Via Trionfale e della parte iniziale di Via di Torrevecchia, dove è presente l'omonima stazione ferroviaria.Con i suoi 139 metri d'altezza è il rilievo più imponente di Roma e, assieme al Gianicolo e al Pincio, uno dei punti più panoramici della città, soprattutto dal luogo denominato Zodiaco, con vista a sud e a est dei quartieri limitrofi, dei più importanti monumenti architettonici della città, di Città del Vaticano, dei Colli Albani, dei Monti Tiburtini, dei Prenestini e delle maggiori cime dell'Appennino centrale occidentale. Da qui, inoltre, inizia il Parco Lineare più lungo di Roma, che congiunge la località al Parco di Monte Ciocci. Questa località è stata inoltre scelta come vertice geodetico nella proiezione cartografica di Gauss-Boaga, originando il datum Roma 40.">
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

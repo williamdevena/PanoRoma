@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.showinfo.long_info_pincio">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:paddingTop="5dp"
+                    android:text="Il Pincio (o colle Pinciano, dal latino mons Pincius) è un colle di Roma, alto 61 m s.l.m., che si trova a nord del Quirinale guardando sul Campo Marzio, con presenza di diverse ville e giardini che occupano il colle. In cima, da piazzale Napoleone I, si gode un ampio panorama sulla sottostante piazza del Popolo e sul rione Prati, che sorge su quelli che, fino alla fine dell'800, erano i Prati di Castello; la visuale spazia inoltre a nord sulla Cupola di San Pietro fino a Monte Mario, a nord-ovest il Gianicolo, a sud-ovest in fondo all'orizzonte i grattacieli dell'Eur, rendendolo dunque uno dei posti più panoramici della Capitale (in alcune città italiane sorgono parchi panoramici che portano il nome di Pincio, per ricordare quello di Roma; vedi il paragrafo Dal Pincio di Roma a quelli delle altre città italiane).">
+                </TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

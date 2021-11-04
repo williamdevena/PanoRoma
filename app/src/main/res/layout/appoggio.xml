@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:id="@+id/home_frag"
+    tools:context=".ui.showinfo.info_col"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:text="Il Colosseo, originariamente conosciuto come Amphitheatrum Flavium (in italiano: Anfiteatro Flavio) o semplicemente come Amphitheatrum, situato nel centro della città di Roma, è il più grande anfiteatro del mondo. In grado di contenere un numero di spettatori stimato tra 50 000 e 87 000 unità, è il più importante...">
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="300dp"
+                android:id="@+id/testo"
+                android:layout_height="wrap_content"
+                android:text="Visualizza il luogo sulla mappa"
+                android:paddingLeft="15dp"
+                android:textSize="20sp"
+                android:layout_centerVertical="true">
+            </TextView>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_map_col"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:background="@color/white"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"></ImageButton>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informazioni e Servizi"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingBottom="10dp">
+            </TextView>
+        </RelativeLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="bottom"
+            android:columnCount="4"
+            android:rowCount="5">
+            <ImageView
+                android:id="@+id/ora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/orario"
+                android:paddingLeft="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Orario consigliato: tutto il giorno"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bus"
+                android:paddingLeft="12dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Servizio navetta"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center">
+            </TextView>
+            <ImageView
+                android:id="@+id/drink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/restaurant"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Bar e ristoranti"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"/>
+            <ImageView
+                android:id="@+id/wc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/wc"
+                android:paddingLeft="12dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Servizi igenici"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+            <ImageView
+                android:id="@+id/disabili"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/disabili"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Accesso disabili"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+            <ImageView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_social_distance_24"
+                android:paddingLeft="12dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Distanziamento sociale garantito"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+            <ImageView
+                android:id="@+id/pulito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_cleaning_services_24"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Servizio di pulizia"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+            <ImageView
+                android:id="@+id/parcheggio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/parcheggio"
+                android:paddingLeft="12dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Parcheggio"
+                android:textSize="12dp"
+                android:paddingLeft="7dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" />
+        </GridLayout>
+    </LinearLayout>
+</FrameLayout>
